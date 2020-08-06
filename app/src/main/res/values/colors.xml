@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="secondary_text">#CDFFFFFF</color>
+
+    <!-- 2nd Gradient color -->
+    <color name="colorAmber_A400">#E89C00</color>
+    <color name="colorAmber_900">#E66300</color>
+    <!-- ./ 2nd Gradient color -->
+
+    <!-- 3rd Gradient color -->
+    <color name="colorBlue_A400">#00B8D4</color>
+    <color name="colorBlue_900">#2962FF</color>
+    <!-- ./ 3rd Gradient color -->
+
+    <!-- 4th Gradient color -->
+    <color name="colorRed_A400">#FF1744</color>
+    <color name="colorRed_900">#B71C1C</color>
+    <!-- ./ 4th Gradient color -->
+
+    <!--
+    Colour gradients from
+    https://github.com/Android-Tutorials-Hub/animated-gradient-background-tutorial/blob/master/app/src/main/res/values/colors.xml
+    -->
+</resources>
