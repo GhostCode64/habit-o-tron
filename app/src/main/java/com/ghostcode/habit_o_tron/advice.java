@@ -15,7 +15,7 @@ public class advice extends AppCompatActivity {
         ImageView back = findViewById(R.id.adviceBackButton);
         back.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                finish();
+                finish(); //go back to the last page
             }
         });
     }
