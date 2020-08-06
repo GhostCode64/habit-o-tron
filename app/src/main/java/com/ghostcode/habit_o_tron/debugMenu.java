@@ -17,7 +17,7 @@ public class debugMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debug_menu);
 
-       //buttons
+       //buttons list
         Button main = findViewById(R.id.debug_main);
         Button setup = findViewById(R.id.debug_setUp);
         Button advice = findViewById(R.id.debug_advice);
