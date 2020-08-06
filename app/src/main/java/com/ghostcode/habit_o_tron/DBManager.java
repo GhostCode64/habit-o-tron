@@ -1,8 +1,5 @@
 package com.ghostcode.habit_o_tron;
 
-/**
- * Created by anupamchugh on 19/10/15.
- */
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

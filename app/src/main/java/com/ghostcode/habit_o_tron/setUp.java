@@ -74,5 +74,11 @@ public class setUp extends AppCompatActivity {
                 }
             }
         });
+        faq.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent= new Intent(setUp.this, faq.class);
+                startActivity(intent);
+            }
+        });
     }
 }

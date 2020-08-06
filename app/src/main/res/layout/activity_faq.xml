@@ -10,7 +10,7 @@
     <ScrollView
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintTop_toBottomOf="@+id/advice_title" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/faq_title" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintVertical_bias="0.0"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="32dp" android:layout_marginEnd="32dp"
             android:layout_marginBottom="70dp" android:layout_marginTop="16dp">
@@ -46,13 +46,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a mollis dui. Mo
     </ScrollView>
     <ImageView
             android:layout_width="50dp"
-            android:layout_height="50dp" app:srcCompat="@drawable/ic_arrow" android:id="@+id/adviceBackButton"
+            android:layout_height="50dp" app:srcCompat="@drawable/ic_arrow" android:id="@+id/faqBackButton"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="60dp" android:layout_marginStart="16dp" android:rotation="180"/>
     <TextView
-            android:text="Advice"
+            android:text="Frequently Aseked Questions"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" android:id="@+id/advice_title"
+            android:layout_height="wrap_content" android:id="@+id/faq_title"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="60dp" android:textColor="#FFFFFF"
             android:textSize="36sp" android:layout_marginStart="32dp" android:layout_marginEnd="32dp"
@@ -61,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a mollis dui. Mo
     <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp" app:srcCompat="@drawable/wip" android:id="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/advice_title" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/faq_title" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginStart="32dp" android:layout_marginEnd="32dp" android:layout_marginTop="32dp"
             android:layout_marginBottom="32dp" android:visibility="visible"/>

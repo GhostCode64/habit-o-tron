@@ -1,8 +1,5 @@
 package com.ghostcode.habit_o_tron;
 
-/**
- * Created by anupamchugh on 19/10/15.
- */
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
